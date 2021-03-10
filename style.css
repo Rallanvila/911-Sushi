@@ -1,356 +1,415 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	z-index: 5;
 }
 
 nav {
-  width: 100%;
-  padding: 20px;
-  justify-content: space-between;
+	width: 100%;
+	padding: 20px;
+	justify-content: space-between;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .nav-container {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .nav-left,
 .nav-center,
 .nav-right {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  padding: 20px;
-  position: relative;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	padding: 20px;
+	position: relative;
 }
 
 .nav-left i {
-  font-size: 50px;
-  padding-right: 10px;
+	font-size: 50px;
+	padding-right: 10px;
 }
 
 .nav-left h1 {
-  text-align: center;
-  align-self: center;
+	text-align: center;
+	align-self: center;
 }
 .nav-center {
-  justify-content: center;
-  width: 1000px;
+	justify-content: center;
+	width: 1000px;
 }
 
 .nav-center p {
-  padding: 0 10px;
-  cursor: pointer;
+	padding: 0 10px;
+	cursor: pointer;
 }
 
 .nav-right {
-  justify-content: flex-end;
-  padding: 20px 0 20px 20px;
+	justify-content: flex-end;
+	padding: 20px 0 20px 20px;
 }
 
 /* ---------Banner----------- */
 .banner {
-  height: 60vh;
-  width: 100%;
-  background-image: url(./Images/Banner2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+	height: 60vh;
+	width: 100%;
+	background-image: url(./Images/Banner2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
 }
 
 .banner-overlay {
-  width: 100%;
-  height: 60vh;
-  background: black;
-  opacity: 0.4;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+	width: 100%;
+	height: 60vh;
+	background: black;
+	opacity: 0.4;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .banner img {
-  width: 60%;
-  margin: auto;
-  z-index: 2;
+	width: 60%;
+	margin: auto;
+	z-index: 2;
 }
 
 .order-now {
-  width: 100%;
-  height: 40vh;
-  justify-content: center;
-  align-self: center;
-  align-content: center;
-  text-align: center;
-  background-attachment: fixed;
-  background-image: url(./Images/WhiteSushi.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+	width: 100%;
+	height: 40vh;
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;
+	background-attachment: fixed;
+	background-image: url(./Images/WhiteSushi.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
 }
 
 .order-now p {
-  justify-content: center;
-  align-self: center;
-  text-align: center;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
 }
 
 .order-now button {
-  background: black;
-  color: white;
-  padding: 50px 70px;
-  border-radius: 20px;
-  height: 60px;
-  text-align: center;
-  align-self: center;
-  display: flex;
-  border: none;
+	background: black;
+	color: white;
+	padding: 50px 70px;
+	border-radius: 20px;
+	height: 60px;
+	text-align: center;
+	align-self: center;
+	display: flex;
+	border: none;
 }
 
 .order-now button:hover {
-  background: #8b0500;
+	background: #8b0500;
 }
 
 button i {
-  font-size: 30px;
-  align-self: center;
-  padding: 0 20px 0 0;
+	font-size: 30px;
+	align-self: center;
+	padding: 0 20px 0 0;
 }
 
 /* --------------Banner2--------------- */
 
 .banner2 {
-  background-image: url(./Images/Banner3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 40vh;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  background-attachment: fixed;
+	background-image: url(./Images/Banner3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 40vh;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	background-attachment: fixed;
 }
 
 /* -----------reservations------------- */
 .reservations {
-  background-image: url(./Images/Banner4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 60vh;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
+	background-image: url(./Images/Banner4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
 }
 
 .reservations-overlay {
-  width: 100%;
-  height: 60vh;
-  background: white;
-  opacity: 0.2;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+	width: 100%;
+	height: 60vh;
+	background: white;
+	opacity: 0.2;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .opentable {
-  z-index: 5;
+	z-index: 5;
 }
 .reservations h2,
 h3,
 p {
-  z-index: 5;
+	z-index: 5;
 }
 
 /* ------------Events---------------- */
 .events {
-  background-image: url(./Images/events.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 30vh;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  background-attachment: fixed;
-  color: white;
-  display: flex;
+	background-image: url(./Images/events.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 30vh;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	background-attachment: fixed;
+	color: white;
+	display: flex;
 }
 
 .events-overlay {
-  width: 100%;
-  height: 30vh;
-  background: white;
-  opacity: 0.2;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+	width: 100%;
+	height: 30vh;
+	background: white;
+	opacity: 0.2;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .events .container {
-  flex-direction: column;
-  background: #8b0500;
-  width: 350px;
-  display: flex;
+	flex-direction: column;
+	background: #8b0500;
+	width: 350px;
+	display: flex;
 }
 
 .form-container {
-  display: flex;
-  background-color: black;
-  height: 90px;
-  width: 700px;
-  align-self: center;
-  z-index: 5;
+	display: flex;
+	background-color: black;
+	height: 90px;
+	width: 700px;
+	align-self: center;
+	z-index: 5;
 }
 .events h2 {
-  padding-top: 15px;
+	padding-top: 15px;
 }
 
 .events p {
-  padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .events form {
-  text-align: center;
-  align-self: center;
-  padding: 15px;
-  border: none;
+	text-align: center;
+	align-self: center;
+	padding: 15px;
+	border: none;
 }
 
 input {
-  width: 400px;
-  border-radius: 5px;
-  height: 20px;
-  padding: 10px 10px;
-  background: #474747;
-  color: white;
-  border: none;
+	width: 400px;
+	border-radius: 5px;
+	height: 20px;
+	padding: 10px 10px;
+	background: #474747;
+	color: white;
+	border: none;
 }
 
 .events button {
-  padding: 8px 15px;
-  color: white;
-  background: #8b0500;
-  border-radius: 10px;
-  width: 200px;
-  text-align: center;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  border: none;
+	padding: 8px 15px;
+	color: white;
+	background: #8b0500;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	border: none;
 }
 
 .events button:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 /* ----------footer------------ */
 footer h2 {
-  color: #8b0500;
+	color: #8b0500;
 }
 
 footer {
-  background-image: url(./Images/footer.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 42vh;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	text-align: center;
+	justify-content: center;
+	background-image: url(./Images/footer.jpg);
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 footer .overlay {
-  width: 100%;
-  height: 42vh;
-  background: white;
-  opacity: 0.8;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+	width: 100%;
+	height: 529px;
+	background: white;
+	opacity: 0.8;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .locations,
 .hours {
-  z-index: 1;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
+	z-index: 1;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
 }
 
 .locations {
-  margin: 40px 0;
+	margin: 40px 0;
 }
 
 footer button {
-  padding: 8px 15px;
-  color: white;
-  background: #8b0500;
-  border-radius: 10px;
-  width: 200px;
-  text-align: center;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  border: none;
-  z-index: 4;
-  margin: 20px 0 10px 0;
+	padding: 8px 15px;
+	color: white;
+	background: #8b0500;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	border: none;
+	z-index: 4;
+	margin: 20px 0 10px 0;
 }
 
 footer button i {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 footer button:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .social {
-  z-index: 5;
-  padding: 20px;
+	z-index: 5;
+	padding: 20px;
 }
 
 .social i {
-  padding: 10px 20px 5px 10px;
-  font-size: 30px;
-  cursor: pointer;
+	padding: 10px 20px 5px 10px;
+	font-size: 30px;
+	cursor: pointer;
 }
 
 .social i:hover {
-  color: #8b0500;
+	color: #8b0500;
 }
 
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 strong {
-  color: #8b0500;
-  z-index: 5;
-  cursor: pointer;
+	color: #8b0500;
+	z-index: 5;
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 501px) {
+	nav {
+		padding: 10px 0;
+	}
+	.nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		align-self: center;
+	}
+
+	.nav-container {
+		padding: 0;
+	}
+	.nav-left {
+		justify-content: center;
+		padding: 10px;
+	}
+	.nav-center {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		display: flex;
+		/* flex-direction: column; */
+		width: auto;
+	}
+
+	.nav-center p {
+		padding: 5px;
+	}
+
+	.nav-right {
+		padding: 0;
+		width: auto;
+	}
+
+	.nav-container {
+		flex-direction: column;
+	}
+
+	.events {
+		flex-direction: column;
+	}
+
+	.form-container {
+		flex-direction: column;
+		width: 95%;
+		padding: 0;
+		height: auto;
+	}
+
+	.form-container button {
+		margin: 5px;
+	}
 }
