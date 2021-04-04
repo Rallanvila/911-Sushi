@@ -63,7 +63,7 @@ nav {
 
 /* ---------Banner----------- */
 .banner {
-	height: 60vh;
+	height: 700px;
 	width: 100%;
 	background-image: url(./Images/Banner2.jpg);
 	background-position: center;
@@ -74,7 +74,7 @@ nav {
 
 .banner-overlay {
 	width: 100%;
-	height: 60vh;
+	height: 700px;
 	background: black;
 	opacity: 0.4;
 	position: absolute;
@@ -91,7 +91,7 @@ nav {
 
 .order-now {
 	width: 100%;
-	height: 40vh;
+	height: 400px;
 	justify-content: center;
 	align-self: center;
 	align-content: center;
@@ -140,7 +140,7 @@ button i {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 40vh;
+	height: 400px;
 	justify-content: center;
 	align-self: center;
 	text-align: center;
@@ -154,7 +154,7 @@ button i {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 60vh;
+	height: 700px;
 	justify-content: center;
 	align-self: center;
 	text-align: center;
@@ -165,7 +165,7 @@ button i {
 
 .reservations-overlay {
 	width: 100%;
-	height: 60vh;
+	height: 700px;
 	background: white;
 	opacity: 0.2;
 	position: absolute;
@@ -190,7 +190,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 30vh;
+	height: 300px;
 	justify-content: center;
 	align-self: center;
 	text-align: center;
@@ -201,7 +201,7 @@ p {
 
 .events-overlay {
 	width: 100%;
-	height: 30vh;
+	height: 300px;
 	background: white;
 	opacity: 0.2;
 	position: absolute;
